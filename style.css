@@ -12,7 +12,7 @@ a {
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-image: linear-gradient(to right, #83a4d4, #b6fbff);
+    background-color: #b6fbff;
 }
 
 img {
@@ -59,15 +59,14 @@ ul {
 
 .container ul li a {
     text-decoration: none;
-    background-color: 
-    rgba(5, 130, 197, 0.3);
-    color: #061161;
+    background-color: #0e23bb; 
+    color: white;
     text-transform: uppercase;
     height: 53px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 14px;
+    font-size: 15px;
     margin-bottom: 16px;
     border-radius: 6px;
     transition: 480ms;
@@ -76,7 +75,6 @@ ul {
 /* PSEUDO CLASS */
 .container ul li a:hover {
     background-color: #061161;
-    color: white;
     transform: scale(1.1);
     border: none;
 }
